@@ -10,9 +10,9 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '08889fe7-3150-4618-b083-78321e1a29de'
-  imageRepository: 'hkaanturgutbuildingandpushingdockerimagestoazureco'
-  containerRegistry: 'kaandemoprojectacr.azurecr.io'
+  dockerRegistryServiceConnection: '7e6a8961-cc84-48c1-bf89-275e3643f90d'
+  imageRepository: 'poncat.azurecr.io'
+  containerRegistry: 'poncat.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/pyhton.app docker/Dockerfile'
   tag: '$(Build.BuildId)'
 
